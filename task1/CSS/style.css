@@ -1,0 +1,27 @@
+html {
+    margin: 0;
+    padding: 0;
+    background-color: rgba(176, 173, 165, 0.22);
+}
+
+.blok {
+    margin: 0 auto;
+    width: 500px;
+    height: 1000px;
+    font-family: "Palatino Linotype";
+}
+
+.name {
+  text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.foto {
+    width: 211px;
+    margin: auto;
+}
+
+.blok3 a {
+    font-style: italic;
+}
