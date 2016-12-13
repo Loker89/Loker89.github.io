@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.menu {
+  margin: 100px;
+
+}
+
+.menu li {
+  float: left;
+  border: 1px solid #009;
+  margin: 0px 20px;
+  padding: 5px;
+  list-style: none;
+}
+.menu a {
+  color: #000;
+  text-decoration: none;
+}
+.active {
+  position: relative;
+  top: 30px;
+  left: 20px;
+}
+
+
+
+
+/*.parent {
+  background: rgb(45, 112, 85);
+  height: 100px;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.box1 {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  background: rgb(134, 21, 35);
+}
+.box2 {
+  position: absolute;
+  top: 40px;
+  left: 40px;
+  background: rgb(45, 41, 125);
+}*/
