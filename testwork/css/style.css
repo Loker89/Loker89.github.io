@@ -1,0 +1,35 @@
+html{
+  margin: 0;
+  padding: 0;
+}
+
+
+div+p {
+  background: rgb(223, 130, 44);
+  font-size: rgb(221, 178, 188);
+}
+.action .lolo>a {
+  color: rgb(160, 217, 0);
+  font-size: 22px;
+
+}
+
+.action .lolo>a +ul {
+background: rgb(0, 121, 173);
+
+}
+p {
+  color: yellow;
+}
+/*#boxi{
+  font-size: 40px;
+  font-style: oblique;
+}*/
+.input{
+  color: blue;
+}
+
+
+.boxi p{
+  color: green;
+}
