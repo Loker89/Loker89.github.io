@@ -137,39 +137,52 @@ header {
 .navbar_2 li a:hover {
     color: #007ec9;
 }
-.blok2 {
-  width: 1000px;
-	overflow: hidden;
-  background: #edeef0;
-  position: relative;
-  text-align: center;
-  line-height: 1.5;
+
+.table {
+    width: 1000px;
+    overflow: hidden;
+    background: #edeef0;
+    text-align: center;
+    line-height: 1.5;
 }
+
 .colon1 {
-  width: 210px;
-	float: left;
-	padding-bottom: 20000px;
-	margin-bottom: -20000px;
-  margin-top: 8px;
-  border-right: 1px solid #c7cacf;
+    width: 210px;
+    float: left;
+    padding-bottom: 20000px;
+    margin-bottom: -20000px;
+    border-right: 1px solid #c7cacf;
+    padding-top: 8px;
 }
+
 .colon2 {
-  width: 580px;
-	float: left;
-	padding-bottom: 20000px;
-	margin-bottom: -20000px;
-  background: white;
+    width: 580px;
+    float: left;
+    padding-bottom: 20000px;
+    margin-bottom: -20000px;
+    background: white;
 }
+
 .colon3 {
-  width: 210px;
-	float: right;
-	padding-bottom: 20000px;
-	margin-bottom: -20000px;
-  margin-top: 8px;
+    width: 210px;
+    float: right;
+    padding-bottom: 20000px;
+    margin-bottom: -20000px;
+    border-left: 1px solid #c7cacf;
+    padding-top: 8px;
 }
-.blok2 b{
-      font-weight: 600;
-      font-family: 'Tahoma', sans-serif;
-      font-size: 18px;
+
+.table b {
+    font-weight: 600;
+    font-family: 'Tahoma', sans-serif;
+    font-size: 18px;
+}
+.foot {
+  position: relative;
+  padding: 25px;
+  color: white;
+  font-family: 'Tahoma', sans-serif;
+  font-size: 12px;
+  text-align: center;
 
 }
