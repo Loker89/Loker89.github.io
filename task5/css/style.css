@@ -1,0 +1,49 @@
+header {
+    height: 36px;
+    width: 1215px;
+    margin: 0 auto;
+    background: url(../img/panel.png);
+}
+
+.panel_top {
+    margin-left: 455px;
+}
+
+.menu_top li {
+    float: left;
+    display: inline-block;
+}
+
+.menu_top a {
+    display: block;
+    padding: 11px 12px 11px 12px;
+    font-family: 'Helvetica Neue', sans-serif;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    color: #4fa0da;
+}
+
+.menu_top a:hover {
+    background: #4eabda;
+    color: white;
+}
+.line {
+  float: left;
+  height: 31px;
+  width: 1px;
+  margin: 2px 15px 3px 8px;
+  background: #56a2dc;
+}
+.flag {
+  float: left;
+  height: 36px;
+  width: 140px;
+  display: inline-block;
+background-image: url(../img/flag.png) left no-repeat;
+padding-left: 15px;
+text-align: center;
+text-decoration: none;
+color: white;
+
+    }
