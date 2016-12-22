@@ -1,0 +1,11 @@
+body {
+  background: #E8E8E8;
+}
+table {
+    margin: 100px auto;
+}
+td {
+    border: 9px solid black;
+    height: 60px;
+    width: 78px;
+}
