@@ -222,23 +222,79 @@ section {
     width: 910px;
     height: 628px;
     margin: 0 auto;
-
 }
 
 .left {
     float: left;
+    height: 628px;
+    width: 192px;
+}
+
+.katalog {
     border: 1px solid #8b979c;
     border-radius: 15px;
-height: 28px;
-width: 180px;
 }
+
 .left img {
-  padding: 2px 0px 0px 2px;
+    padding: 2px 3px 0px 2px;
 }
+
 .left a {
+    float: right;
+    display: block;
     font-family: "Lucida Sans Unicode", sans-serif;
     font-size: 13px;
     text-decoration: none;
     color: #114165;
+    text-align: center;
+    margin: 8.5px 8px 0px 0px;
+}
 
+.menu_left {
+    float: left;
+}
+
+.menu_left>li>a {
+    float: right;
+    text-decoration: none;
+    font-family: "Lucida Sans Unicode", sans-serif;
+    font-size: 14px;
+    color: #114165;
+    border: 1px solid #8b979c;
+    border-radius: 15px;
+    padding: 0px 90px 0px 5px;
+}
+.menu_left li p {
+  float: right;
+  display: block;
+  margin: 8.5px 4px 0px 0px;
+}
+
+.menu_left li ul {
+    padding: 3px 0px 0px 0px;
+}
+
+.menu_left li ul li>a {
+    text-decoration: none;
+    font-family: "Lucida Sans Unicode", sans-serif;
+    font-size: 13px;
+    color: #465961;
+}
+
+.menu_left li ul>li {
+    float: left;
+    list-style: circle;
+    line-height: 1.5;
+    margin-left: 65px;
+}
+
+.menu_left li li a:hover {
+    text-decoration: uppercase;
+    text-decoration: underline;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: bold;
+    color: #465961;
+  padding top: 1.5px;
 }
