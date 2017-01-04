@@ -175,41 +175,70 @@ nav {
     margin: 11px 4px 11px 0px;
     text-decoration: none;
 }
+
 main {
-  width: 900px;
-  height: 155px;
-  margin: 0 auto;
+    width: 900px;
+    height: 155px;
+    margin: 0 auto;
 }
+
 .find_avto {
-  float: left;
-  width: 413px;
-  height: 133px;
-  margin: 6px 11px 0px 0px;
-  border-radius: 18px;
-  border: 1px solid #b6b6b7;
-  -webkit-box-shadow: 2px 2px 7px 2px rgba(182,182,183,1);
-  -moz-box-shadow: 2px 2px 7px 2px rgba(182,182,183,1);
-  box-shadow: 2px 2px 7px 2px rgba(182,182,183,1);
+    float: left;
+    width: 413px;
+    height: 133px;
+    margin: 6px 13px 0px 0px;
+    border-radius: 18px;
+    border: 1px solid #b6b6b7;
+    -webkit-box-shadow: 2px 2px 7px 2px rgba(182, 182, 183, 1);
+    -moz-box-shadow: 2px 2px 7px 2px rgba(182, 182, 183, 1);
+    box-shadow: 2px 2px 7px 2px rgba(182, 182, 183, 1);
 }
+
 .find_tires {
-  float: left;
-  width: 189px;
-  height: 133px;
-  margin: 6px 11px 0px 0px;
-  border-radius: 18px;
-  border: 1px solid #b6b6b7;
-  -webkit-box-shadow: 2px 2px 7px 2px rgba(182,182,183,1);
-  -moz-box-shadow: 2px 2px 7px 2px rgba(182,182,183,1);
-  box-shadow: 2px 2px 7px 2px rgba(182,182,183,1);
+    float: left;
+    width: 189px;
+    height: 133px;
+    margin: 6px 13px 0px 0px;
+    border-radius: 18px;
+    border: 1px solid #b6b6b7;
+    -webkit-box-shadow: 2px 2px 7px 2px rgba(182, 182, 183, 1);
+    -moz-box-shadow: 2px 2px 7px 2px rgba(182, 182, 183, 1);
+    box-shadow: 2px 2px 7px 2px rgba(182, 182, 183, 1);
 }
+
 .find_disc {
-  float: left;
-  width: 266px;
-  height: 133px;
-  margin: 6px 0px 0px 0px;
-  border-radius: 18px;
-  border: 1px solid #b6b6b7;
-  -webkit-box-shadow: 2px 2px 7px 2px rgba(182,182,183,1);
-  -moz-box-shadow: 2px 2px 7px 2px rgba(182,182,183,1);
-  box-shadow: 2px 2px 7px 2px rgba(182,182,183,1);
+    float: left;
+    width: 266px;
+    height: 133px;
+    margin: 6px 0px 0px 0px;
+    border-radius: 18px;
+    border: 1px solid #b6b6b7;
+    -webkit-box-shadow: 2px 2px 7px 2px rgba(182, 182, 183, 1);
+    -moz-box-shadow: 2px 2px 7px 2px rgba(182, 182, 183, 1);
+    box-shadow: 2px 2px 7px 2px rgba(182, 182, 183, 1);
+}
+
+section {
+    width: 910px;
+    height: 628px;
+    margin: 0 auto;
+
+}
+
+.left {
+    float: left;
+    border: 1px solid #8b979c;
+    border-radius: 15px;
+height: 28px;
+width: 180px;
+}
+.left img {
+  padding: 2px 0px 0px 2px;
+}
+.left a {
+    font-family: "Lucida Sans Unicode", sans-serif;
+    font-size: 13px;
+    text-decoration: none;
+    color: #114165;
+
 }
