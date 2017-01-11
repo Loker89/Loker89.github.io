@@ -204,6 +204,7 @@ main {
     -webkit-box-shadow: 2px 2px 7px 2px rgba(182, 182, 183, 1);
     -moz-box-shadow: 2px 2px 7px 2px rgba(182, 182, 183, 1);
     box-shadow: 2px 2px 7px 2px rgba(182, 182, 183, 1);
+    color: rgb(19, 111, 96)
 }
 
 .find_disc {
@@ -224,7 +225,7 @@ section {
     margin: 0 auto;
 }
 
-.left {
+.menu_left {
     float: left;
     height: 628px;
     width: 192px;
@@ -235,11 +236,11 @@ section {
     border-radius: 15px;
 }
 
-.left img {
+.katalog img {
     padding: 2px 3px 0px 2px;
 }
 
-.left a {
+.katalog a {
     float: right;
     display: block;
     font-family: "Lucida Sans Unicode", sans-serif;
@@ -250,51 +251,6 @@ section {
     margin: 8.5px 8px 0px 0px;
 }
 
-.menu_left {
+.block_left {
     float: left;
-}
-
-.menu_left>li>a {
-    float: right;
-    text-decoration: none;
-    font-family: "Lucida Sans Unicode", sans-serif;
-    font-size: 14px;
-    color: #114165;
-    border: 1px solid #8b979c;
-    border-radius: 15px;
-    padding: 0px 90px 0px 5px;
-}
-.menu_left li p {
-  float: right;
-  display: block;
-  margin: 8.5px 4px 0px 0px;
-}
-
-.menu_left li ul {
-    padding: 3px 0px 0px 0px;
-}
-
-.menu_left li ul li>a {
-    text-decoration: none;
-    font-family: "Lucida Sans Unicode", sans-serif;
-    font-size: 13px;
-    color: #465961;
-}
-
-.menu_left li ul>li {
-    float: left;
-    list-style: circle;
-    line-height: 1.5;
-    margin-left: 65px;
-}
-
-.menu_left li li a:hover {
-    text-decoration: uppercase;
-    text-decoration: underline;
-    font-family: Arial, sans-serif;
-    font-size: 14px;
-    font-style: italic;
-    font-weight: bold;
-    color: #465961;
-  padding top: 1.5px;
 }
