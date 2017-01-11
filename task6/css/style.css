@@ -234,6 +234,10 @@ section {
 .katalog {
     border: 1px solid #8b979c;
     border-radius: 15px;
+    -webkit-box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.75);
+    margin-bottom: 13px;
 }
 
 .katalog img {
@@ -242,15 +246,30 @@ section {
 
 .katalog a {
     float: right;
-    display: block;
     font-family: "Lucida Sans Unicode", sans-serif;
     font-size: 13px;
     text-decoration: none;
     color: #114165;
-    text-align: center;
-    margin: 8.5px 8px 0px 0px;
+    margin: 7.5px 8px 0px 0px;
 }
 
-.block_left {
-    float: left;
+.groups {
+    border: 1px solid #79878d;
+    border-radius: 15px;
+    margin-right: 27px;
+}
+
+.groups a {
+  display: inline-block;
+    font-family: "Lucida Sans Unicode", sans-serif;
+    font-size: 13px;
+    text-decoration: none;
+    color: #114165;
+    margin: 3px 70px 3px 10px;
+}
+
+.groups img {
+    height: 22px;
+    width: 22px;
+    padding: 2px 3px 0px 2px;
 }
