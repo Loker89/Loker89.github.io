@@ -254,22 +254,47 @@ section {
 }
 
 .groups {
+    display: table;
+    width: 146px;
     border: 1px solid #79878d;
     border-radius: 15px;
-    margin-right: 27px;
-}
-
-.groups a {
-  display: inline-block;
     font-family: "Lucida Sans Unicode", sans-serif;
     font-size: 13px;
     text-decoration: none;
     color: #114165;
-    margin: 3px 70px 3px 10px;
 }
 
 .groups img {
     height: 22px;
     width: 22px;
-    padding: 2px 3px 0px 2px;
+    margin: 2px 3px 0px 2px;
+}
+
+.groups span {
+    width: 120px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.description {
+    width: 112px;
+    margin-left: 49px;
+    padding: 5px 0px 5px 0px;
+    list-style: circle;
+}
+
+.option {
+    display: block;
+    font-family: "Lucida Sans Unicode", sans-serif;
+    font-size: 13px;
+    text-decoration: none;
+    color: #465961;
+}
+.option:hover {
+  font-style: italic;
+  font-weight: bold;
+  font-family: arial;
+  text-decoration: underline;
+  font-size: 13px;
+  color: #0c3256;
 }
