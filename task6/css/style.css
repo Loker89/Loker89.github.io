@@ -84,7 +84,7 @@ header {
     margin: 0px 2px;
 }
 
-figure {
+.logo {
     width: 909px;
     height: 237px;
     margin: 0 auto;
@@ -229,6 +229,7 @@ section {
     float: left;
     height: 628px;
     width: 192px;
+    padding-right: 7px;
 }
 
 .katalog {
@@ -290,11 +291,51 @@ section {
     text-decoration: none;
     color: #465961;
 }
+
 .option:hover {
+    font-style: italic;
+    font-weight: bold;
+    font-family: arial;
+    text-decoration: underline;
+    font-size: 13px;
+    color: #0c3256;
+}
+
+.centre {
+    float: left;
+    height: 627px;
+    width: 526px;
+    border-radius: 3px;
+    background: rgba(229,231,232,1);
+    background: -moz-linear-gradient(top, rgba(229,231,232,1) 0%, rgba(147,167,176,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(229,231,232,1)), color-stop(100%, rgba(147,167,176,1)));
+    background: -webkit-linear-gradient(top, rgba(229,231,232,1) 0%, rgba(147,167,176,1) 100%);
+    background: -o-linear-gradient(top, rgba(229,231,232,1) 0%, rgba(147,167,176,1) 100%);
+    background: -ms-linear-gradient(top, rgba(229,231,232,1) 0%, rgba(147,167,176,1) 100%);
+    background: linear-gradient(to bottom, rgba(229,231,232,1) 0%, rgba(147,167,176,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e5e7e8', endColorstr='#93a7b0', GradientType=0 );
+}
+
+.tovar {
+  float: left;
+  width: 175.34px;
+  margin: 20px 0 0 0px;
+  text-align: center;
+}
+.text_up {
+  font-weight: bold;
+  color: #206988;
+  font-family: "Lucida Sans Unicode", sans-serif;
+  font-size: 15px;
+}
+.text_down {
+  font-family: "Lucida Sans Unicode", sans-serif;
+  font-size: 13px;
+}
+figcaption {
   font-style: italic;
   font-weight: bold;
   font-family: arial;
-  text-decoration: underline;
-  font-size: 13px;
-  color: #0c3256;
+  font-size: 16px;
+  color: #114165;
 }
